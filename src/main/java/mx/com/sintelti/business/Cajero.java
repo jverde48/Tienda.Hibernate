@@ -68,13 +68,13 @@ public class Cajero
 		int opcion2=0;
 		int opcion3=0;
 		
-		while(opcion3 != 3)
+		while(opcion3 != 2)
 		{
 			try 
 			{
-				opcion = br.readLine();
-				opcion2= Integer.parseInt(opcion);
 				System.out.println("1.- Listar Productos\n2.- Agregar producto\n3.- Cobrar");
+				opcion = br.readLine();
+				opcion2= Integer.parseInt(opcion);				
 		
 				switch (opcion2) 
 				{

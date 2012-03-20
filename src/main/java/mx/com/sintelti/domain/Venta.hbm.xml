@@ -10,7 +10,6 @@
         </id>
         <property name="subTotal"></property>
         <property name="totalVenta"></property>
-        <property name="peso"></property>
         <set name="listaProductos" table="PRODUCTOS_VENDIDOS" inverse="false" lazy="true">
         	<key>
         		<column name="ID_VENTA"></column>

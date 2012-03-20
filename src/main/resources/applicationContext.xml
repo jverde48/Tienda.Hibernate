@@ -11,5 +11,7 @@
 	</bean>
 	
 	<bean name="listaProductos" class="java.util.HashSet" scope="prototype"></bean>
-	<bean name="almacen" class="mx.com.sintelti.business" scope="singleton"></bean>
+	<bean name="almacen" class="mx.com.sintelti.business.Almacen" scope="singleton"></bean>
+	<bean name="cajero" class="mx.com.sintelti.business.Cajero"></bean>
+	<bean name="spUtil" class="mx.com.sintelti.util.SpringUtil"></bean>
 </beans>
